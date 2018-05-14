@@ -1,0 +1,65 @@
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    .big_font {
+      font-size: 30px;
+    }
+
+    .image_class {
+      position: center;
+      height: 200px;
+      background-position: 50% 50%;
+      background-repeat:no-repeat;
+      background-size: cover;
+    }
+    .image_cart {
+      position: absolute;
+      height: 50px;
+      /*width:50px;*/
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .image_class_prod {
+      position: center;
+      height: 350px;
+      padding-top: 50px;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .text_center {
+      text-align: center;
+    } 
+    .table_cart_items tr {
+      height: 80px;
+    }  
+    .table_cart_items th,td {
+      text-align: center;
+    }
+    .table_cart_order th,td {
+      text-align: left;
+    }
+    .border_design {
+      /*outline: 1px solid orange;*/
+      padding: 20px;
+      border: 10px solid #C0C0C0;
+    }
+    .glyph {
+      font-size: 100px;
+      color: green;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
